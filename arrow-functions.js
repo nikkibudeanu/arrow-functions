@@ -10,6 +10,14 @@ function addTwoNumbers(a, b){
 }
 let sum = addTwoNumbers(3,5)
 console.log(sum);
+
+// ES6
+const addTwoNumbers2 = (c,d) => {
+    return c + d;
+}
+let sum2 = addTwoNumbers2(3,5)
+console.log(sum2);
+
 // Arrow Function With Parameters
 
 // Single Line Arrow Function With Parameters
