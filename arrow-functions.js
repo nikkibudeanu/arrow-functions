@@ -29,5 +29,8 @@ console.log(sum3)
 // also valid --> const addTwoNumbers3 =(e, f) =>( e + f);
 
 // Implicit Returns
+const saySomething = message => console.log(message)
+saySomething('Hello there!')
 
+const sayHello = () => console.log('hello')
 // Returning Multiple Lines
